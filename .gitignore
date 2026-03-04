@@ -4,13 +4,8 @@
 # Windows
 Thumbs.db
 
-# Obsidian — volatile UI state (changes on every session)
-.obsidian/workspace.json
-.obsidian/app.json
-.obsidian/graph.json
-
-# Obsidian — plugin configs (may contain API keys, tokens)
-.obsidian/plugins/*/data.json
+# Obsidian — config, plugins, UI state (may contain API keys)
+.obsidian/
 
 # Obsidian Copilot — AI conversations, memory, custom prompts (user-specific)
 copilot/
