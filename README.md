@@ -1,6 +1,6 @@
 # Frontend Learning Vault
 
-Comprehensive knowledge base for modern **React + TypeScript** frontend development.
+Comprehensive knowledge base for modern **React + TypeScript** frontend development and system design.
 
 ---
 
@@ -31,10 +31,32 @@ Learning/
 │   ├── Advanced Types                (conditional, mapped, branded types)
 │   └── Type-Safe API Layer           (typed fetch, Zod, route params)
 │
-└── 3. Patterns/                      ← Design & architectural patterns
-    ├── Design Patterns               (Singleton, Factory, Observer, Decorator, Strategy, Facade)
-    ├── Architectural Patterns         (MVC, MVVM, Clean, Onion, FSD)
-    └── Anti-Patterns                  (React, State Management, TypeScript)
+├── 3. Patterns/                      ← Design & architectural patterns
+│   ├── Design Patterns               (Singleton, Factory, Observer, Decorator, Strategy, Facade)
+│   ├── Architectural Patterns        (MVC, MVVM, Clean, Onion, FSD)
+│   └── Anti-Patterns                 (React, State Management, TypeScript)
+│
+├── 4. Common/                         ← Shared concepts
+│   ├── Event loop                    (call stack, task queue, microtasks)
+│   ├── EventEmitter                  (pub/sub pattern)
+│   └── debounce                      (debounce vs throttle, React implementation)
+│
+├── 5. FED/                            ← Frontend fundamentals
+│   ├── HTML                          (Semantic HTML, ARIA, HTML5 features)
+│   ├── CSS                           (Layout, Box Model, Specificity, Responsive, Animations)
+│   ├── JavaScript                    (this, closures, prototypes, ES6, DOM, Browser API)
+│   ├── Web performance               (page load, rendering, responsiveness)
+│   ├── Accessibility (a11y)          (WCAG, assistive technologies)
+│   ├── Security                      (XSS, CSRF, CSP)
+│   └── Front end frameworks          (React, Vue, Angular comparison)
+│
+└── 6. System Design/                  ← System design for interviews
+    ├── Scalability                   (horizontal/vertical scaling, load balancing)
+    ├── Modularity                    (separation of concerns, boundaries)
+    ├── Performance and Reliability   (caching, CDN, fault tolerance)
+    ├── Maintainability               (code quality, documentation)
+    ├── Accessibility                 (design for scale, inclusive systems)
+    └── Trade-offs                    (CAP, consistency vs availability)
 ```
 
 ---
@@ -43,36 +65,40 @@ Learning/
 
 | Phase | Sections | Duration |
 | :-- | :-- | :-- |
-| **Fundamentals** | [[1. React/README.md\|1. React]] (Core + Hooks) | 6 weeks |
-| **TypeScript** | [[2. TypeScript/2. TypeScript.md\|2. TypeScript]] | 2 weeks |
+| **Fundamentals** | [[1. React/README|1. React]] (Core + Hooks) | 6 weeks |
+| **TypeScript** | [[2. TypeScript/2. TypeScript|2. TypeScript]] | 2 weeks |
+| **FED Basics** | [[5. FED/1. HTML/Semantic HTML|5. FED]] (HTML, CSS, JavaScript) | 3 weeks |
 | **Ecosystem** | React Patterns, State Management, Routing, Data Fetching | 3 weeks |
-| **Patterns** | [[3. Patterns/README.md\|3. Patterns]] | 3 weeks |
-| **Quality** | Testing, Performance | 3 weeks |
+| **Patterns** | [[3. Patterns/README|3. Patterns]] | 3 weeks |
+| **Quality** | Testing, Performance, [[5. FED/6. Security/1. security|Security]] | 3 weeks |
 | **Production** | Tooling & Build, Real-World Examples | 2 weeks |
+| **System Design** | [[6. System Design/1. Scalability|6. System Design]] | 2 weeks |
 
-**Total estimated time: ~19 weeks** (at moderate pace)
+**Total estimated time: ~24 weeks** (at moderate pace)
 
 ---
 
 ## Quick Start
 
-- **New to React?** Start with [[1. React/1. React Core Concepts/1. React Core Concepts.md]]
-- **Know React, learning TypeScript?** Go to [[2. TypeScript/2. TypeScript.md]]
-- **Looking for patterns?** Check [[3. Patterns/QUICK_REFERENCE.md]]
-- **Choosing state management?** See [[4. State Management.md]]
-- **Setting up a project?** Start with [[7. Tooling & Build.md]]
-- **Need a reference example?** Browse [[8. Real-World Examples.md]]
+- **New to React?** Start with [[1. React/1. React Core Concepts/1. React Core Concepts]]
+- **Know React, learning TypeScript?** Go to [[2. TypeScript/2. TypeScript]]
+- **Frontend fundamentals?** Check [[5. FED/1. HTML/Semantic HTML]], [[5. FED/2. CSS/1. Layout (Flexbox, Grid)]], [[5. FED/3. JavaScript/1. Core concepts/1. this]]
+- **Looking for patterns?** See [[3. Patterns/QUICK_REFERENCE]]
+- **Choosing state management?** [[1. React/10. State Management/4. State Management]]
+- **Setting up a project?** [[1. React/13. Tooling & Build/7. Tooling & Build]]
+- **System design interview?** [[6. System Design/1. Scalability]]
+- **Need a reference example?** [[1. React/14. Real-World Examples/8. Real-World Examples]]
 
 ---
 
 ## Statistics
 
-- **Sections:** 3 main sections (React, TypeScript, Patterns)
-- **Files:** 100+ markdown files
+- **Sections:** 6 main sections (React, TypeScript, Patterns, Common, FED, System Design)
+- **Files:** 170+ markdown files
 - **Code Examples:** 500+
 - **Patterns Covered:** 40+
 
 ---
 
-**Last Updated:** February 25, 2026
-**Version:** 3.0
+**Last Updated:** March 4, 2026  
+**Version:** 4.0
