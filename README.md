@@ -47,6 +47,8 @@ Learning/
 │   │   └── 4. Throttle               (definition, implementations, examples)
 │   ├── 3. Hoisting                   (var/let/const hoisting, TDZ, function declarations)
 │   │   └── 1. Hoisting               (definition, examples, comparison, best practices)
+│   ├── 4. CallApplyBind              (call, apply, bind methods, context binding)
+│   │   └── 1. CallApplyBind          (definition, comparision, practical examples)
 │   └── EventEmitter                  (pub/sub pattern)
 │
 ├── 5. FED/                            ← Frontend fundamentals

@@ -21,6 +21,9 @@ An alphabetical reference of key terms used across this vault.
 
 ## C
 
+- **Call** — Method to invoke a function with an explicit `this` context, arguments passed individually. [[4. Common/4. CallApplyBind/1. CallApplyBind]]
+- **Apply** — Method to invoke a function with an explicit `this` context, arguments passed as an array. [[4. Common/4. CallApplyBind/1. CallApplyBind]]
+- **Bind** — Method that creates a new function with a bound `this` context for later invocation. [[4. Common/4. CallApplyBind/1. CallApplyBind]]
 - **CAP Theorem** — Distributed systems: can guarantee only 2 of 3 — Consistency, Availability, Partition tolerance. [[6. System Design/6. Trade-offs]]
 - **CLS** — Cumulative Layout Shift; Web Vital measuring visual stability; low CLS means less unexpected layout movement. [[1. React/12. Performance/6.5 Web Vitals]]
 - **CORS** — Cross-Origin Resource Sharing; browser mechanism controlling cross-origin requests. [[1. React/4. Data Fetching/4.1 Fetch and Axios Patterns]]
