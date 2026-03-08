@@ -33,12 +33,14 @@ An alphabetical reference of key terms used across this vault.
 - **CSS-in-JS** — Styling approach where CSS is written in JavaScript (e.g., styled-components). [[1. React/7. Styling/7.3 CSS-in-JS]]
 - **CSS Modules** — Scoped CSS where class names are locally unique to avoid conflicts. [[1. React/7. Styling/7.1 CSS Modules]]
 - **Component** — Reusable, composable UI unit; the building block of React applications. [[1. React/1. React Core Concepts/1. React Core Concepts]]
+- **Closure** — Function that retains access to variables from its lexical scope after the outer function has finished executing; enables private data and module patterns. [[4. Common/5. Closures/1. Closures]]
 - **Context API** — React's built-in way to share state globally without prop drilling. [[1. React/1. React Core Concepts/1.9 Context API]]
 - **Code Splitting** — Splitting bundle into smaller chunks loaded on demand to improve initial load. [[1. React/12. Performance/6.3 Code Splitting]]
 - **CRUD** — Create, Read, Update, Delete; the four basic operations for persistent data. [[1. React/4. Data Fetching/4. Data Fetching]]
 - **Compound Components** — Pattern where components work together as a group (e.g., Tabs + TabPanel). [[1. React/9. React Patterns/9.1 Compound Components]]
 - **Critical Rendering Path** — Sequence of steps browser takes to render a page (HTML → DOM → CSSOM → Render tree → Layout → Paint). [[5. FED/3. JavaScript/5. Performance/3. critical rendering path]]
 - **Consistency** — System design property; all nodes see the same data. CAP theorem trade-off. [[6. System Design/6. Trade-offs]]
+- **Currying** — Technique of transforming a function with multiple arguments into a sequence of functions with single argument; enables partial application. [[4. Common/5. Closures/1. Closures]]
 
 ## D
 

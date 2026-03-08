@@ -49,6 +49,8 @@ Learning/
 │   │   └── 1. Hoisting               (definition, examples, comparison, best practices)
 │   ├── 4. CallApplyBind              (call, apply, bind methods, context binding)
 │   │   └── 1. CallApplyBind          (definition, comparision, practical examples)
+│   ├── 5. Closures                   (lexical scope, private data, module pattern, currying, decorators)
+│   │   └── 1. Closures               (definition, stale closure, factory pattern, examples)
 │   └── EventEmitter                  (pub/sub pattern)
 │
 ├── 5. FED/                            ← Frontend fundamentals
