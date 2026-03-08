@@ -37,9 +37,9 @@ Learning/
 │   └── Anti-Patterns                 (React, State Management, TypeScript)
 │
 ├── 4. Common/                         ← Shared concepts
-│   ├── Event loop                    (call stack, task queue, microtasks)
-│   ├── 1. JS some cases
-│   │   └── Promise Executor & Microtask Queue
+│   ├── 1. EventLoop                  (call stack, task queue, microtasks, Promise executor)
+│   │   ├── 1. EventLoop              (overview and examples)
+│   │   └── 2. PromiseExecutor        (Promise executor & microtask queue)
 │   ├── EventEmitter                  (pub/sub pattern)
 │   └── debounce                      (debounce vs throttle, React implementation)
 │

@@ -50,7 +50,7 @@ An alphabetical reference of key terms used across this vault.
 - **E2E** — End-to-end testing; tests that run against the full application in a real browser. [[1. React/11. Testing/5.4 E2E Testing]]
 - **Error Boundary** — React component that catches JavaScript errors in its child tree. [[1. React/1. React Core Concepts/1.7 Error Boundaries]]
 - **ESLint** — Linter that finds and fixes problems in JavaScript/TypeScript code. [[1. React/13. Tooling & Build/7.3 ESLint and Prettier]]
-- **Event Loop** — JavaScript mechanism for handling async operations; call stack, task queue, microtasks. [[4. Common/Event loop]] [[4. Common/1. JS some cases/1. event loop promise]]
+- **Event Loop** — JavaScript mechanism for handling async operations; call stack, task queue, microtasks. [[4. Common/1. EventLoop/1. EventLoop]]
 - **Event Delegation** — Attaching one listener to a parent to handle events from children. [[5. FED/3. JavaScript/3. DOM manipulation/3. event delegation]]
 - **EventEmitter** — Pub/sub pattern for decoupled communication. [[4. Common/EventEmmiter]]
 
@@ -103,7 +103,7 @@ An alphabetical reference of key terms used across this vault.
 ## M
 
 - **Memoization** — Caching computed values to avoid redundant work; useMemo, useCallback, React.memo. [[1. React/12. Performance/6.2 Memoization]]
-- **Microtask** — Asynchronous task with higher priority than macrotasks; Promise.then, queueMicrotask, MutationObserver. [[4. Common/1. JS some cases/1. event loop promise]]
+- **Microtask** — Asynchronous task with higher priority than macrotasks; Promise.then, queueMicrotask, MutationObserver. [[4. Common/1. EventLoop/2. PromiseExecutor]]
 - **MSW** — Mock Service Worker; intercepts network requests for testing. [[1. React/11. Testing/5.5 Mocking Strategies]]
 - **Middleware** — Code that runs between request and response; used in routing and API layers. [[1. React/3. Routing/3. Routing]]
 - **Mutation** — Operation that changes server data (create, update, delete). [[1. React/4. Data Fetching/4.2 TanStack Query]]
@@ -117,7 +117,7 @@ An alphabetical reference of key terms used across this vault.
 ## P
 
 - **Promise** — JavaScript object representing eventual completion or failure of an async operation; states: pending, fulfilled, rejected. [[5. FED/3. JavaScript/2. ES6 features/1. Promises, async-await]]
-- **Promise Executor** — Callback function passed to Promise constructor; runs synchronously and receives resolve/reject. [[4. Common/1. JS some cases/1. event loop promise]]
+- **Promise Executor** — Callback function passed to Promise constructor; runs synchronously and receives resolve/reject. [[4. Common/1. EventLoop/2. PromiseExecutor]]
 - **Portal** — Renders children into a DOM node outside the parent hierarchy (e.g., modals). [[1. React/1. React Core Concepts/1.6 Portals]]
 - **Prefetching** — Loading data before the user navigates to reduce perceived latency. [[1. React/4. Data Fetching/4.2 TanStack Query]]
 - **Progressive Enhancement** — Building core functionality first, then layering enhancements. [[1. React/8. Accessibility/8. Accessibility]]
