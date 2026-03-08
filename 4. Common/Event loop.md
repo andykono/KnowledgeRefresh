@@ -1,7 +1,10 @@
 
-Порядок выполнения команд в Event Loop 
-- Не синхронные команды. 
-- Micro Tasks как-то Promise.resolve().then() 
+Порядок выполнения команд в Event Loop
+
+[[5. FED/3. JavaScript/1. Core concepts/4. event loop]] · [[4. Common/1. JS some cases/1. event loop promise]]
+
+- Не синхронные команды.
+- Micro Tasks как-то Promise.resolve().then()
 - Macro Tasks, как setTimeout, Клики, скролл *(это Web API)*
 
 ```js

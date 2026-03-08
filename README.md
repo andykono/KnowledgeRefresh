@@ -38,6 +38,8 @@ Learning/
 │
 ├── 4. Common/                         ← Shared concepts
 │   ├── Event loop                    (call stack, task queue, microtasks)
+│   ├── 1. JS some cases
+│   │   └── Promise Executor & Microtask Queue
 │   ├── EventEmitter                  (pub/sub pattern)
 │   └── debounce                      (debounce vs throttle, React implementation)
 │
