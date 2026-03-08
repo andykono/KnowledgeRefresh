@@ -45,6 +45,8 @@ Learning/
 │   │   ├── 2. ReactHooks             (useDebounce hook, stale closure)
 │   │   ├── 3. Examples                (search, validation, autosave, filtering)
 │   │   └── 4. Throttle               (definition, implementations, examples)
+│   ├── 3. Hoisting                   (var/let/const hoisting, TDZ, function declarations)
+│   │   └── 1. Hoisting               (definition, examples, comparison, best practices)
 │   └── EventEmitter                  (pub/sub pattern)
 │
 ├── 5. FED/                            ← Frontend fundamentals

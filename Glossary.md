@@ -72,6 +72,7 @@ An alphabetical reference of key terms used across this vault.
 ## H
 
 - **HOC** — Higher-Order Component; function that takes a component and returns an enhanced component. [[1. React/9. React Patterns/9.2 Render Props, HOCs, Hooks]]
+- **Hoisting** — JavaScript behavior where declarations (var, let, const, functions) are raised to the top of their scope before execution. [[4. Common/3. Hoisting/1. Hoisting]]
 - **Hydration** — Process where React attaches event listeners to server-rendered HTML. [[1. React/6. Server Components/6.1 Server vs Client]]
 - **Hook** — React function (useState, useEffect, etc.) that lets you use state and other features in function components. [[1. React/2. React Hooks/2. React Hooks]]
 - **Horizontal Scaling** — Adding more servers/instances; scale out. [[6. System Design/1. Scalability]]
