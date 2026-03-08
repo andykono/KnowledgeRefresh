@@ -39,7 +39,7 @@ An alphabetical reference of key terms used across this vault.
 
 ## D
 
-- **Debounce** — Delaying execution until after a pause in input; useful for search, resize. [[4. Common/debounce]]
+- **Debounce** — Delaying execution until after a pause in input; useful for search, resize. [[4. Common/2. Debounce/1. Debounce]]
 - **Discriminated Union** — TypeScript union type with a common discriminant property for type narrowing. [[2. TypeScript/2.4 Advanced Types]]
 - **DX** — Developer Experience; how pleasant and productive it is to work with a tool or framework.
 - **Derived State** — State computed from other state rather than stored directly. [[1. React/10. State Management/4.1 React Built-in State]]
@@ -155,7 +155,7 @@ An alphabetical reference of key terms used across this vault.
 ## T
 
 - **TanStack Query** — Library for server state: caching, fetching, mutations. [[1. React/4. Data Fetching/4.2 TanStack Query]]
-- **Throttle** — Limiting how often a function runs (e.g., scroll handlers). [[5. FED/3. JavaScript/5. Performance/1. Debouncing, throttling]]
+- **Throttle** — Limiting how often a function runs (e.g., scroll handlers). [[4. Common/2. Debounce/4. Throttle]] · [[5. FED/3. JavaScript/5. Performance/1. Debouncing, throttling]]
 - **Transition** — React 18+ API for marking updates as non-urgent. [[1. React/12. Performance/6.1 React Rendering Model]]
 - **Tree Shaking** — Build step that removes unused code from the bundle. [[1. React/13. Tooling & Build/7.1 Vite]]
 - **Type Guard** — Function that narrows types at runtime; `x is Type`. [[2. TypeScript/2.4 Advanced Types]]

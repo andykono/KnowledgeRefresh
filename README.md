@@ -40,8 +40,12 @@ Learning/
 │   ├── 1. EventLoop                  (call stack, task queue, microtasks, Promise executor)
 │   │   ├── 1. EventLoop              (overview and examples)
 │   │   └── 2. PromiseExecutor        (Promise executor & microtask queue)
-│   ├── EventEmitter                  (pub/sub pattern)
-│   └── debounce                      (debounce vs throttle, React implementation)
+│   ├── 2. Debounce                   (debounce, throttle, React hooks, examples)
+│   │   ├── 1. Debounce               (definition, JS/TS implementations)
+│   │   ├── 2. ReactHooks             (useDebounce hook, stale closure)
+│   │   ├── 3. Examples                (search, validation, autosave, filtering)
+│   │   └── 4. Throttle               (definition, implementations, examples)
+│   └── EventEmitter                  (pub/sub pattern)
 │
 ├── 5. FED/                            ← Frontend fundamentals
 │   ├── HTML                          (Semantic HTML, ARIA, HTML5 features)
